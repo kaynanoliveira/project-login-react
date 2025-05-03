@@ -1,9 +1,12 @@
 import {Link} from 'react-router-dom'
+import { Button } from '../../components/Button'
 
 const Home = () => {
     return(<>
         <h1>Home</h1>
-        <Link to="/login"><button>Fazer login</button></Link>
+        <Button title='Teste1' />
+        <Button varient='secondary' title='Teste2'/>
+        <Link to="/login">Fazer login</Link>
     </>)
 }
 
