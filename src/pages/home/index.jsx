@@ -1,13 +1,11 @@
-import {Link} from 'react-router-dom'
+import { Header } from '../../components/Header/index'
 import { Button } from '../../components/Button'
 
 const Home = () => {
     return(<>
-        <h1>Home</h1>
-        <Button title='Teste1' />
-        <Button varient='secondary' title='Teste2'/>
-        <Link to="/login">Fazer login</Link>
+        <Header />
+
     </>)
 }
 
-export {Home}
+export { Home }
