@@ -1,7 +1,7 @@
 import { Header } from '../../components/Header/index'
 import { Button } from '../../components/Button'
 import banner from '../../assets/banner.png'
-import {Container, TitleHighlight, Title, TextContent } from './styles'
+import {Container, TitleHighlight, Title, TextContent, BannerImage} from './styles'
 
 const Home = () => {
     return(<>
@@ -20,9 +20,9 @@ const Home = () => {
                 </TextContent>
                 <Button title='Começar agora' varient='secondary' />
             </div>
-            <div>
+            <BannerImage>
                 <img src={banner} alt='banner dio' onClick={() => null}/>
-            </div>
+            </BannerImage>
         </Container>
     </>)
 }
