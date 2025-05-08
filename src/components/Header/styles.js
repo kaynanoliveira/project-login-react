@@ -34,7 +34,7 @@ export const Wrapper = styled.div`
 
 export const BuscarInputContainer = styled.div`
     width: 175px;
-    height: 38px;
+    height: 25px;
     background: #202037;
     border-radius: 8px;
     padding: 2px 5px;
