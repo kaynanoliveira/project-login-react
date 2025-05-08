@@ -66,10 +66,10 @@ export const MenuRight = styled.div`
 `
 
 export const UserPicture = styled.img`
-    width: 32px;
-    height: 32px;
-    border-radius: 22px;
-    border: 2px solid #FFFFFF;
+width: 32px;
+height: 32px;
+border-radius: 22px;
+border: 3px solid #4cd964;
 ` 
 
 export const Input = styled.input`
