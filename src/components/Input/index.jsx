@@ -1,11 +1,19 @@
-import {InputContainer, IconContainer, InputText } from './styles'
+import {InputContainer, IconContainer, ErrorText, InputText } from './styles'
+import { Controller } from "react-hook-form"
 
-const Input = ({leftIcon, name, ...rest}) => {
+const Input = ({leftIcon, name, control, errorMessage, ...rest}) => {
   return (
+    <>
     <InputContainer>
     {leftIcon ? (<IconContainer>{leftIcon}</IconContainer>) : null}
-        <InputText {...rest}/>
+      <Controller 
+      render={({ field }) => <InputText {...field} {...rest}/>}
+      name={name}
+      control={control}
+      />
     </InputContainer>
+    {errorMessage ? <ErrorText>{errorMessage}</ErrorText> : null}
+    </>
   )
 }
 
