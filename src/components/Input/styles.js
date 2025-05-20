@@ -15,11 +15,6 @@ export const IconContainer = styled.div`
     display: flex;
     align-items: center;
 `
-export const ErrorText = styled.p`
-    color:rgb(255, 0, 0);
-    font-size: 12px;
-    margin-bottom: 10px;
-`
 
 export const InputText = styled.input`
     background-color: transparent;

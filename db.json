@@ -1,6 +1,0 @@
-{
-    "users": [
-        {"id": 1, "name": "kaynan oliveira", "email": "kaynan@gmail.com", "senha": "123456"},
-        {"id": 2, "name": "kevin normando", "email": "kevin@gmail.com", "senha": "1234567"}
-    ]
-}

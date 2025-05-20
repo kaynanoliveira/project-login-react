@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button } from '../Button'
 import logo from '../../assets/logo-dio.png'
 import { useNavigate } from 'react-router-dom'
@@ -8,9 +7,14 @@ const Header = ({autenticado}) => {
 
     const navigate = useNavigate()
     
-    const HandleClickSignIn = () => {
+    const HandleClickEntrar = () => {
         navigate('/login')
     }
+
+    const HandleClickRegistrar = () => {
+        navigate('/registrar')
+    }
+
   return (
     <Wrapper>
         <Container>
@@ -30,8 +34,8 @@ const Header = ({autenticado}) => {
                     <UserPicture src='https://avatars.githubusercontent.com/u/167828106?v=' />
                 ) : (<>
                     <MenuRight href='#'>Home</MenuRight>
-                    <Button title='Entrar'/>
-                    <Button title='Cadastrar' onClick={HandleClickSignIn}/>
+                    <Button title='Entrar' onClick={HandleClickEntrar}/>
+                    <Button title='Cadastrar' onClick={HandleClickRegistrar}/>
                     </>
                 )}
             </Row>
