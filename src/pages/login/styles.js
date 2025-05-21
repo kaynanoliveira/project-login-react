@@ -51,7 +51,7 @@ export const TitleLogin = styled.p`
 
 export const SubTitleLogin = styled.p`
     font-family: 'Open Sans';
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;

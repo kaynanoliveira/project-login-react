@@ -19,7 +19,8 @@ const ButtonContainer = styled.button`
     ${({varient})=> varient !== "primary" && css `
         min-width: 167px;
         height: 33px;
-
+        margin-bottom: 15px;
+        margin-top: 15px;
         background: #E41050;
 
         &:hover {

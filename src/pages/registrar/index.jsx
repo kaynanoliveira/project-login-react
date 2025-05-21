@@ -1,5 +1,5 @@
 import { Header } from '../../components/Header/index'
-import {Container, Title, Row, SubTitle, TitleComecar, Column, Wrapper, FazerLogin } from './styles'
+import {Container, Title, Row, SubTitle, TitleComecar, Column, Wrapper, FazerLogin, Description } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { MdPerson, MdEmail, MdLock } from 'react-icons/md'
@@ -31,11 +31,11 @@ const Registrar = () => {
             <Input name='password' placeholder='Senha' type='password'leftIcon={<MdLock />} />
             <Button title='Criar minha conta' varient='sencondary' onClick={HandleClickRegistrar}/>
           </form>
-          <SubTitle>
+          <Description>
             Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.
-          </SubTitle>
+          </Description>
           <Row>
-              <FazerLogin>Fazer Login</FazerLogin>
+              <FazerLogin onClick={HandleClickRegistrar}>Fazer Login</FazerLogin>
           </Row>
         </Wrapper>
       </Column>

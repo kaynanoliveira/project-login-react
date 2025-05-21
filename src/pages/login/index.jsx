@@ -27,7 +27,7 @@ const Login = () => {
             <Column>
                 <Wrapper>
                     <TitleLogin>Faça seu cadastro</TitleLogin>
-                    <SubTitleLogin>Faça seu login e make the change.</SubTitleLogin> 
+                    <SubTitleLogin>Faça seu login e make the change._</SubTitleLogin> 
                     <form>
                         <Input name='email' placeholder='E-mail' type='email' leftIcon={<MdEmail />}/>
                         <Input name='password' placeholder='Senha' type='password' leftIcon={<MdLock />} />

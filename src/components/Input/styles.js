@@ -5,7 +5,7 @@ export const InputContainer = styled.div`
     max-width: 275px;
     height: 30px;
     border-bottom: 1px solid #583450;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     
     display: flex;
     align-items: center;

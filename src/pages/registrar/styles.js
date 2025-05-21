@@ -9,12 +9,16 @@ export const Container = styled.main`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 120px; 
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: -20px;
 `
 
 export const Row = styled.div`
@@ -22,7 +26,6 @@ export const Row = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 `
 
 export const Column = styled.div`
@@ -35,27 +38,36 @@ export const Title = styled.h2`
     font-style: normal;
     font-weight: 700;
     width: 100%;
+    margin-top: -20px;
     margin-bottom: 20px;
     line-height: 44px;
-    color: #FFFFFF;
 `
 
 export const TitleComecar = styled.p`
     font-family: 'Open Sans';
-    font-size: 32px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 10px;
     line-height: 35px;
+    white-space: nowrap;
 `
 
 export const SubTitle = styled.p`
     font-family: 'Open Sans';
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     line-height: 25px;
+    white-space: nowrap;
+`
+
+export const Description = styled.p`
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 `
 
 export const FazerLogin = styled.p`

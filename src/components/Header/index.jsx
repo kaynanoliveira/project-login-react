@@ -15,11 +15,15 @@ const Header = ({autenticado}) => {
         navigate('/registrar')
     }
 
+    const HandleClickHome = () => {
+        navigate('/')
+    }
+
   return (
     <Wrapper>
         <Container>
             <Row>
-                <img src={logo} alt='logo da dio'/>
+                <img onClick={HandleClickHome} src={logo} alt='logo da dio'/>
                 {autenticado ? (<>
                     <BuscarInputContainer>
                      <Input placeholder='Buscar...'/>
