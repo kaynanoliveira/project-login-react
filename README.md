@@ -1,1 +1,1 @@
-# Criando clone do site da DIO com React usando styled-components
+# Criando clone do site da DIO com Typescript e React usando styled-components.
