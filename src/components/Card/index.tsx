@@ -1,4 +1,3 @@
-import { FiThumbsUp } from 'react-icons/fi'
 import { CardContainer, ImageBackground, Content, UserInfo, UserPicture, PostInfo, HasInfo } from './styles'
 
 const Card = () => {
@@ -19,9 +18,6 @@ const Card = () => {
             </PostInfo>
             <HasInfo>
                 <h4>#HTML #CSS #Javascript</h4>
-                <p>
-                    <FiThumbsUp /> 10
-                </p>
             </HasInfo>
         </Content>
     </CardContainer>

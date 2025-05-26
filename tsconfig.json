@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                           // Melhor compatibilidade
+    "target": "ES6",                           
     "lib": ["DOM", "DOM.Iterable", "ESNext"],     // Inclui tudo necessário
-    "module": "ESNext",                           // Compatível com import/export modernos
+    "module": "CommonJS",                         
     "jsx": "react-jsx",                           // Mantém correto
     "forceConsistentCasingInFileNames": true,
     "strict": true,

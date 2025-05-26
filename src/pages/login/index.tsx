@@ -2,7 +2,6 @@ import { Button } from '../../components/Button'
 import { Input } from '../../components/Input'
 import {Container, Title, Row, SubTitleLogin, TitleLogin, Column, Wrapper, CriarText, EsqueciText } from './styles'
 import { Header } from '../../components/Header/index'
-import { MdEmail, MdLock } from 'react-icons/md'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
@@ -29,8 +28,8 @@ const Login = () => {
                     <TitleLogin>Faça seu cadastro</TitleLogin>
                     <SubTitleLogin>Faça seu login e make the change._</SubTitleLogin> 
                     <form>
-                        <Input name='email' placeholder='E-mail' type='email' leftIcon={<MdEmail />}/>
-                        <Input name='password' placeholder='Senha' type='password' leftIcon={<MdLock />}/>
+                        <Input name='email' placeholder='E-mail' type='email' />
+                        <Input name='password' placeholder='Senha' type='password' />
                         <Button title='Entrar' variant='sencondary' onClick={HandleClickEntrar}/>
                     </form>
                 <Row>

@@ -2,7 +2,6 @@ import { Header } from '../../components/Header/index'
 import {Container, Title, Row, SubTitle, TitleComecar, Column, Wrapper, FazerLogin, Description } from './styles'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
-import { MdPerson, MdEmail, MdLock } from 'react-icons/md'
 import { useNavigate } from 'react-router-dom'
 
 
@@ -26,9 +25,9 @@ const Registrar = () => {
           <TitleComecar>Comece agora grátis</TitleComecar>
           <SubTitle>Crie sua conta e make the change._</SubTitle>
           <form>
-            <Input name='name' placeholder='Nome Completo' type='name' leftIcon={<MdPerson />}/>
-            <Input name='email' placeholder='E-mail' type='email' leftIcon={<MdEmail />}/>
-            <Input name='password' placeholder='Senha' type='password'leftIcon={<MdLock />} />
+            <Input name='name' placeholder='Nome Completo' type='name' />
+            <Input name='email' placeholder='E-mail' type='email' />
+            <Input name='password' placeholder='Senha' type='password' />
             <Button title='Criar minha conta' variant='secondary' onClick={HandleClickRegistrar}/>
           </form>
           <Description>
