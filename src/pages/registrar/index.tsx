@@ -29,7 +29,7 @@ const Registrar = () => {
             <Input name='name' placeholder='Nome Completo' type='name' leftIcon={<MdPerson />}/>
             <Input name='email' placeholder='E-mail' type='email' leftIcon={<MdEmail />}/>
             <Input name='password' placeholder='Senha' type='password'leftIcon={<MdLock />} />
-            <Button title='Criar minha conta' varient='sencondary' onClick={HandleClickRegistrar}/>
+            <Button title='Criar minha conta' variant='secondary' onClick={HandleClickRegistrar}/>
           </form>
           <Description>
             Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.

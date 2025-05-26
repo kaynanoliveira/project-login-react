@@ -17,7 +17,7 @@ const Feed = () => {
                 <Card />
                 <Card />
             </Column>
-            <Column flex={1}>
+            <Column flex={1} >
             <TitleHighlight># RANKING TOP 5 DA SEMANA</TitleHighlight>
             <UserInfo name="Pablo Henrique" image="https://avatars.githubusercontent.com/u/45184516?v=" percentual={25}/>
             <UserInfo name="Venilton FalvoJr" image="https://avatars.githubusercontent.com/u/730492?v=" percentual={50}/>

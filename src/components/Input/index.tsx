@@ -1,6 +1,7 @@
 import {InputContainer, IconContainer, InputText } from './styles'
+import { IInput } from './types'
 
-const Input = ({leftIcon, ...rest}) => {
+const Input = ({leftIcon, ...rest}: IInput) => {
   return (
     <InputContainer>
     {leftIcon ? (<IconContainer>{leftIcon}</IconContainer>) : null}

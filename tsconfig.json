@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                           // Melhor compatibilidade
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],     // Inclui tudo necessário
+    "module": "ESNext",                           // Compatível com import/export modernos
+    "jsx": "react-jsx",                           // Mantém correto
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,         // ✅ Essencial para bibliotecas modernas
+    "moduleResolution": "Node",                   // ✅ Essencial para resolver `node_modules`
+    "resolveJsonModule": true,                    // Opcional, mas útil
+    "isolatedModules": true,                      // Opcional, mas bom para segurança
+    "noEmit": true                                // Evita gerar arquivos desnecessários
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
